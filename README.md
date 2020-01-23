@@ -76,44 +76,44 @@ Play Builder에서 새 Play를 생성합니다.
 
 ![실습04](./images/pi06.jpeg)
 
-- Entity LED를 등록합니다.
+- 05 Entity LED를 등록합니다.
 
 ![실습05](./images/pi07.jpeg)
 
-- Custom Intents 를 설정합니다.
+- 06 Custom Intents 를 설정합니다.
 
 ![실습06](./images/pi08.jpeg)
 
 
-- Custom Intent LED를 켜는 명령어를 등록합니다.
+- 07 Custom Intent LED를 켜는 명령어를 등록합니다.
 
 ![실습07](./images/pi09.jpeg)
 
-- Custom Intent LED를 끄는 명령어를 등록합니다.
+- 08 Custom Intent LED를 끄는 명령어를 등록합니다.
 
 ![실습08](./images/pi10.jpeg)
 
-- 사용자의 발화에 따른 기능수행을 위해 Custom Action을 정의합니다.
+- 09 사용자의 발화에 따른 기능수행을 위해 Custom Action을 정의합니다.
 
 ![실습09](./images/pi11.jpeg)
 
-- 불 켜는 기능을 정의합니다. (1/2)
+- 10 불 켜는 기능을 정의합니다. (1/2)
 
 ![실습10](./images/pi12.jpeg)
 
-- 불 켜는 기능을 정의합니다. (2/2)
+- 11 불 켜는 기능을 정의합니다. (2/2)
 
 ![실습11](./images/pi13.jpeg)
 
-- 불을 끄는 기능을 정의합니다. (1/2)
+- 12 불을 끄는 기능을 정의합니다. (1/2)
 
 ![실습12](./images/pi14.jpeg)
 
-- 불을 끄는 기능을 정의합니다. (2/2)
+- 13 불을 끄는 기능을 정의합니다. (2/2)
 
 ![실습13](./images/pi15.jpeg)
 
-- Play가 완성되었습니다. 빌드를 합니다.
+- 14 Play가 완성되었습니다. 빌드를 합니다.
 
 ![실습14](./images/pi16.jpeg)
 
