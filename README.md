@@ -4,6 +4,8 @@ Play는 NUGU 플랫폼의 엔진들과 통신해 서비스를 제공하는 단�
 - 의도 : 라즈베리 파이의 불을 켜고싶다. 
 - 기능 : 라즈베리 파이 GPIO를 컨트롤하는 명령어를 전달한다. 그리고 사용자에게 명령이 수행되었다고 대답한다.
 
+![Play소개](./images/pi01.png)
+
 
    - [Play Builder 가이드문서](https://developers.nugu.co.kr/docs/nugu-developers-an-overview/nugu-play-kit.html#play)
 
@@ -31,13 +33,15 @@ Play는 이러한 모델을 통해 사용자의 말을 이해하고 그 속에 �
 그리고, User Utterance Model은 Intent와 Entity로 구성됩니다.    
 여기서 Intent는 Play의 기능을 동작시키기 위해 표현하는 사용자 의도를 의미하며, Entity는 사용자의 요청을 정확히 처리하기 위해 Intent 외에 추가로 알아야 하는 개체를 의미합니다. 
 
+![의도학습](./images/pi02.png)
+
 
 Play Builder는 사용자가 정의한 User Utterance Model을 바탕으로 NLU 엔진을 자동으로 학습시킵니다.    
 이후 사용자가 예상 발화와 일치하거나 유사한 의도를 가지는 발화를 한 경우에 NLU 엔진은 해당 Intent와 Entity로 분석합니다.
 
 라즈베리파이를 예를들어 설명드리자면 NUGU서버가 사용자의 말을 이해하기 위해서는 먼저, NUGU스피커에 발화(명령)하는 문장을 적어줘야 합니다.
 
- - "라즈베리파이에서 엘이디 밝게해줘", 
+ - "라즈베리파이에서 엘이디 밝게해줘"
  - "파이에서 LED 켜줘"
  - "보드에서 불 꺼줘" 
 
@@ -56,20 +60,62 @@ NUGU Developers의 제일 강력한 기능이지 않을 까 생각됩니다.
 자 이제, LED를 켜보기 위한 Play를 작성해볼까요?
 Play Builder에서 새 Play를 생성합니다.
 
-- Play를 생성합니다.
-- 기본정보를 입력합니다.
-- Custom Entity Types를 설정합니다.
-- Entity 라즈베리파이를 등록합니다
+- 01 Play를 생성합니다.
+
+![실습01](./images/pi03.png)
+
+- 02 기본정보를 입력합니다.
+
+![실습02](./images/pi04.jpeg)
+
+- 03 Custom Entity Types를 설정합니다.
+
+![실습03](./images/pi05.jpeg)
+
+- 04 Entity 라즈베리파이를 등록합니다.
+
+![실습04](./images/pi06.jpeg)
+
 - Entity LED를 등록합니다.
+
+![실습05](./images/pi07.jpeg)
+
 - Custom Intents 를 설정합니다.
+
+![실습06](./images/pi08.jpeg)
+
+
 - Custom Intent LED를 켜는 명령어를 등록합니다.
+
+![실습07](./images/pi09.jpeg)
+
 - Custom Intent LED를 끄는 명령어를 등록합니다.
+
+![실습08](./images/pi10.jpeg)
+
 - 사용자의 발화에 따른 기능수행을 위해 Custom Action을 정의합니다.
+
+![실습09](./images/pi11.jpeg)
+
 - 불 켜는 기능을 정의합니다. (1/2)
+
+![실습10](./images/pi12.jpeg)
+
 - 불 켜는 기능을 정의합니다. (2/2)
+
+![실습11](./images/pi13.jpeg)
+
 - 불을 끄는 기능을 정의합니다. (1/2)
+
+![실습12](./images/pi14.jpeg)
+
 - 불을 끄는 기능을 정의합니다. (2/2)
+
+![실습13](./images/pi15.jpeg)
+
 - Play가 완성되었습니다. 빌드를 합니다.
+
+![실습14](./images/pi16.jpeg)
 
 
 
